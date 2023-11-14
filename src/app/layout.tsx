@@ -33,8 +33,10 @@ const lobster =Lobster({
 
 export default function RootLayout({
   children,
+  types
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  types: any
 }) {
   return (
     <html lang="en">
